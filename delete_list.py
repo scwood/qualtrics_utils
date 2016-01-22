@@ -1,7 +1,6 @@
 import click
 import json
 import requests
-import sys
 
 @click.command()
 @click.option('--user', prompt='User', help='Target audience user.')
